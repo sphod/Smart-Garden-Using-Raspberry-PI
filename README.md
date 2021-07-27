@@ -39,6 +39,7 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/mast
 ```
 ***Step 4:*** Clone Repository.
 ```
+https://github.com/sphod/Smart-Garden-Using-Raspberry-PI
 ```
 ***Step 5:*** Copy Files around (You can also copy these files in vnc without using terminal).
 ```
@@ -74,7 +75,12 @@ When browsing from another machine you should use the hostname or IP-address of 
 **Step 10:** Install the list of nodes given below by going into menu (top right 3 dashes) 
 **Manage palette>palette>install>search**
 
-* 
+* node-red-contrib-dht-sensor
+* node-red-contrib-google-sheets
+* node-red-contrib-fs
+* node-red-contrib-pythonshell
+* node-red-dashboard
+* node-red-node-pi-mcp3008
 
 **Step 11** Click on Deploy & Visit address: ***http://localhost:1880/ui*** for Dashboard.
 
