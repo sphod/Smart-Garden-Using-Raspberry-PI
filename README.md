@@ -38,7 +38,7 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/mast
 ```
 ***Step 4:*** Clone Repository.
 ```
-https://github.com/sphod/Smart-Garden-Using-Raspberry-PI
+git clone https://github.com/sphod/Smart-Garden-Using-Raspberry-PI
 ```
 ***Step 5:*** Copy Files around (You can also copy these files in vnc without using terminal).
 ```
