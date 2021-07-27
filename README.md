@@ -31,7 +31,6 @@ An 'IOT system' to monitor sensors like soil moisture, luminosity, Water Level ,
 ```
 sudo apt-get update && sudo apt-get upgrade
 ```
-
 **Step 3:** 
 Make sure you have latest Node-Red Installed on your Raspberry pi.
 ```bash
@@ -43,18 +42,21 @@ https://github.com/sphod/Smart-Garden-Using-Raspberry-PI
 ```
 ***Step 5:*** Copy Files around (You can also copy these files in vnc without using terminal).
 ```
+cp /home/pi/Smart-Garden-Using-Raspberry-PI/tsl.py /home/pi/Desktop
 ```
 _Copying Luminosity sensor script to desktop._
 ```
+cp /home/pi/Smart-Garden-Using-Raspberry-PI/flows.json /home/pi/.node-red/lib/flows
 ```
 _Copying JSON file (Node-Red Flow) to its appropriate folder._
 ```
+cp /home/pi/Smart-Garden-Using-Raspberry-PI/Custom_script.py /home/pi
 ```
 _Copying custom **.py** Script to home directory._
 
 ***Step 6:*** Run the **.py** script
 ```python
-
+sudo python Custom_script.py
 ```
 _process description_ 
 
